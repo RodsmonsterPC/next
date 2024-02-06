@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+console.log("hola");
 export default function PokemonCard(props) {
   const [pokemon, setPokemon] = useState({});
   useEffect(() => {
